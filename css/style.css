@@ -1,0 +1,121 @@
+@charset "UTF-8";
+:root{
+    --nero:#000000;
+    --bianco:#FFFFFF;
+    --giallodorato:#E89005;
+    --neroammorbidito:#010001;
+    --verdechiaropastoso:#D6F49D;
+    --rosso:#F42B03;
+    --verderana:#3F612D;
+}
+body{background-color:#E89005;}
+h1{color:#F42B03;}
+h2{color:#F42B03;}
+p{color:var(--neroammorbidito);
+    padding-bottom: 21px;
+    line-height: 1.4em;
+    text-align: justify;
+    text-indent: 24px;
+}
+a{color:#000000;}
+h3{color:#F42B03;}
+ol{color:#000000;}
+ul{color:#000000;}
+img{border: 7px solid #000000;
+    margin: auto;
+    display: block;
+}
+strong{color:#F42B03;}
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 815px;
+    height: 24px;
+    margin: auto;
+    border: 2px groove var(--verdechiaropastoso);
+    padding: 4px;
+    background-color:var(--rosso);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+nav > a{
+    margin: 12px;
+    color:var(--giallodorato);
+    text-decoration: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    
+}
+nav > a:hover{
+    transition-duration: 80ms;
+    background-color:var(--neroammorbidito);
+    padding: 2px;
+    border-radius: 42%;
+
+}
+header{
+    text-align: center;
+    margin-top: 30px;
+}
+main{
+    border: 2px solid var(--rosso);
+    border-radius: 1%;
+    margin: auto;
+    width: 1200px;
+    box-shadow: 10px 11px 13px #010001;
+    text-align: justify;
+    padding: 20px;
+    margin: bottom 30px;
+}
+.musica{
+    text-align: left;
+
+}
+.fieldset{
+    border: 2px solid var(--nero);
+    padding: 13px;
+    
+}
+.sexo{
+    border: 2px solid var(--nero);
+    padding: 13px;
+    width: 221px;
+}
+.epoca{
+    border: 2px solid var(--nero);
+    padding: 13px;
+    width: 224px;
+}
+fieldset{border: 2px solid #000000;
+    text-align: left;
+    padding: 23px;
+}
+
+
+
+.mudacor{color: #3F612D;}
+
+.ajeitanovideo{text-align: center;}
+
+iframe{margin: 0 auto;
+    display: block; }
+
+    .video{border: 2px solid var(--rosso);
+        border-radius: 1%;
+        margin: auto;
+        width: 600px;
+        box-shadow: 10px 11px 13px #010001;
+        text-align: justify;
+        padding: 20px;
+        margin: bottom 30px;}
+
+
+
+
+
